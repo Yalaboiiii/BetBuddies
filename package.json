@@ -1,0 +1,19 @@
+{
+  "name": "bet-buddies",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "deploy": "node deploy-commands.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.19.3",
+    "dotenv": "^16.5.0",
+    "moment": "^2.30.1",
+    "mongoose": "^8.15.2"
+  }
+}
