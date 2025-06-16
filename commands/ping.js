@@ -4,7 +4,7 @@ const os = require('os');
 module.exports = {
   data: new SlashCommandBuilder()
     .setName('ping')
-    .setDescription('🏓 Check the bot’s latency and stats!'),
+    .setDescription('Check the bot’s latency and stats!'),
 
   async execute(interaction) {
     // Send initial reply and measure latency
